@@ -1,4 +1,5 @@
+print("Hello World!")
 a=100
-b=6
-c=a*b
-print("c=",c)
+b=a
+print a*b
+
