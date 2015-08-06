@@ -10,5 +10,5 @@ with open(filename) as f:
 # We added the comma to print single newlines and not double newlines.
 # This is because the lines contain the newline character '\n'. 
 for line in content:
-    newline=line.replace('localhost','MBP')
+    newline = line.replace('localhost', 'MBP')
     print newline,
